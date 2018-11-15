@@ -1,0 +1,24 @@
+/* Color definitions */
+
+$dark-green: #0b9794;
+$light-green: #67c4b1;
+$light-blue: #8dd8f7;
+$orange: #e59e36;
+$medium-gray: #9baeaa;
+$pure-black: #000;
+$dark-blue: #003247;
+
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(90deg, $dark-green  25%, rgba(0,0,0,0) 25%), linear-gradient(90deg, $orange 26%, rgba(0,0,0,0) 26%), linear-gradient(90deg, $light-green 29%, rgba(0,0,0,0) 29%), linear-gradient(90deg, $light-blue 26%);
+}
+
